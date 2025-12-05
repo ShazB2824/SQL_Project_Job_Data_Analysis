@@ -83,5 +83,4 @@ GROUP BY
 HAVING
     COUNT(job_postings_fact.job_id) > 10
 ORDER BY
-    demand_count DESC,
     avg_salary DESC;
